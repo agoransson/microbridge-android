@@ -15,9 +15,9 @@ import android.util.Log;
  * @author ksango
  * 
  */
-public class MicroBridge {
+public class Microbridge {
 
-	protected static final String TAG = "MicroBridge";
+	protected static final String TAG = "Microbridge";
 
 	/** Library version */
 	public final static String VERSION = "##version##";
@@ -44,12 +44,12 @@ public class MicroBridge {
 	private boolean debug = false;
 
 	/**
-	 * Create the MicroBridge library instance.
+	 * Create the Microbridge library instance.
 	 * 
 	 * @param the
 	 *            parent context
 	 */
-	public MicroBridge(AdbListener listener) {
+	public Microbridge(AdbListener listener) {
 		this.listener = listener;
 	}
 
