@@ -15,7 +15,7 @@ import android.util.Log;
  * @author ksango
  * 
  */
-public class Microbridge {
+public class MicroBridge {
 
 	protected static final String TAG = "Microbridge";
 
@@ -49,7 +49,7 @@ public class Microbridge {
 	 * @param the
 	 *            parent context
 	 */
-	public Microbridge(AdbListener listener) {
+	public MicroBridge(AdbListener listener) {
 		this.listener = listener;
 	}
 
